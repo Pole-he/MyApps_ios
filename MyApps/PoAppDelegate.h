@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
+@class PoSplastController;
 @interface PoAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
+@property (strong, nonatomic) PoSplastController *viewController;
 @end

@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PoViewController : UIViewController
-
+@interface PoViewController : UIViewController<NSURLConnectionDataDelegate,NSURLConnectionDelegate>
+- (NSString *)replaceUnicode:(NSString *)unicodeStr ;
 @end
